@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/models": ["models/*"],
+      "@/services": ["services/*"],
+      "@/controllers": ["controllers/*"],
+      "@/views": ["views/*"],
+    }
+  }
+}
