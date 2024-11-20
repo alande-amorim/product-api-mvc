@@ -210,4 +210,4 @@ Deverão ser disponibilizadas seguindo padrão RESTful com combinação de verbo
   ```
 
   # Persistência de dados
-  Deverá ser utilizado PostgreSQL 
+Dados deverão ser persistidos em memória, utilizando estruturas de dados que permitam acesso imediato, preferencialmente hash table. A utilização de padrão de projeto Repository facilitará uma futura adoção de outro método de persistência de dados.
